@@ -26,7 +26,7 @@ const start = async () => {
     try {
         await dbConnetion()
         server.listen(PORT, () => {
-            console.log("🚀 ~Server Runnig PORT :", PORT)
+            console.log(" 🛫✈️🚀🛸 ~Server Runnig PORT :", PORT)
         })
     } catch (error) {
         return res.json({
